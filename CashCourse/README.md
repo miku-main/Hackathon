@@ -42,3 +42,8 @@ npm run dev
 npx shadcn@latest add button
 Use --force
 npm install @clerk/nextjs
+npx shadcn@latest add sheet
+npm i drizzle-orm @neondatabase/serverless
+npm i -D drizzle-kit
+npm i dotenv
+npm i -D pg

@@ -47,3 +47,4 @@ npm i drizzle-orm @neondatabase/serverless
 npm i -D drizzle-kit
 npm i dotenv
 npm i -D pg
+npx shadcn@latest add sonner

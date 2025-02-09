@@ -48,3 +48,7 @@ npm i -D drizzle-kit
 npm i dotenv
 npm i -D pg
 npx shadcn@latest add sonner
+npm i -D tsx
+
+
+seed and schema are together for database.

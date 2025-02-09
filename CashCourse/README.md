@@ -1,4 +1,23 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Hackathon
+CashCourse: A fun and interactive game that helps you master finance concepts, from balance sheets to EBITDA, one quiz at a time!
+Team Members: Gui Sen Zou, Ram Patel
+
+Purpose: The purpose of CashCourse is to provide and interactive and "gamified" application that makes learning finance fun and easy for beginners. You will learn key concepts such as balance sheets, EBITDA, and horizontal analysis which will be accessible to everyone on our platform.
+
+Frontend: Node.js
+Backend: TypeScript
+Database: Neon.Tech offers a serverless PostgreSQL database solution designed for the cloud 
+Authentication: Clerk is a user authentication and identity management platform that offers features like social login, multi-factor authentication, and secure handling of personally identifiable information (PII).
+Other: None
+
+Problems: 
+
+Initially, we explored several different ideas, each one vastly different from one another. We ended up spending a lot of our time brainstorming ideas and thoughts about each option before ultimately deciding on gamifying finance. Our challenges didn't stop there as the planning for this app changed numerous time throughout development of it. However, we rolled with the development and didn't let it halt our progress at all.
+
+Designing the webpage of our application also was a challenge as we weren't sure of how to approach it and the styling and multiple components of our app made it difficult to get everything within its proper place
+
+During development, a challenge arose when the code would not function the same on one team member's computer as it did on another's computer. After thorough troubleshooting and collaboration, we were able to identify the root cause of the issue and swiftly dealt with it to ensure a smooth collaboration across all environments going forward.
+
 
 ## Getting Started
 
@@ -6,12 +25,6 @@ First, run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
@@ -19,36 +32,3 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-
-
-npx shadcn@latest init
-Use --force
-npm run dev
-npx shadcn@latest add button
-Use --force
-npm install @clerk/nextjs
-npx shadcn@latest add sheet
-npm i drizzle-orm @neondatabase/serverless
-npm i -D drizzle-kit
-npm i dotenv
-npm i -D pg
-npx shadcn@latest add sonner
-npm i -D tsx
-
-
-seed and schema are together for database.
